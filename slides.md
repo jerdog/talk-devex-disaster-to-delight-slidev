@@ -8,10 +8,11 @@ info: |
   ### How to Champion a DevEx Revolution in Your Organization
 
   ## Abstract
-  Is your team drowning in a sea of bugs, clunky tools, and morale-sapping processes? Are you tired of hearing them utter phrases like "I hate this deployment process" and "This codebase is a crime against humanity"? Well, fret no more! This talk will be your guide to transforming your organization's Developer Experience (DevEx) from a disaster zone to a developer utopia. We'll delve into the what, why, and how of DevEx, exploring practical strategies you can implement to make your developers' lives easier and more productive. We'll cover everything from tooling and automation to fostering a culture of collaboration and feedback. 
-  
+  Is your team drowning in a sea of bugs, clunky tools, and morale-sapping processes? Are you tired of hearing them utter phrases like "I hate this deployment process" and "This codebase is a crime against humanity"? Well, fret no more! This talk will be your guide to transforming your organization's Developer Experience (DevEx) from a disaster zone to a developer utopia. We'll delve into the what, why, and how of DevEx, exploring practical strategies you can implement to make your developers' lives easier and more productive. We'll cover everything from tooling and automation to fostering a culture of collaboration and feedback.
+
   By the end of this talk, you'll be armed with the knowledge and practical tips to become a DevEx champion in your organization, all while avoiding the wrath of your CTO (hopefully). So buckle up, grab your favorite stress ball (you might need it), and get ready to learn how to turn your developer frowns upside down!
 conference: ""
+socialimg: '../images/bluesky-jerdog-white.png'
 favicon: 'https://raw.githubusercontent.com/jerdog/jmeiss-me-website/main/assets/images/fav.png'
 keywords: devex,developer experience
 presenter: true
@@ -44,8 +45,6 @@ defaults:           # default frontmatter applies to all slides
 addons:
   - slidev-addon-rabbit
   - slidev-addon-qrcode
-rabbit:
-  slideNum: true
 layout: cover
 transition: slide-left
 ---
@@ -64,9 +63,9 @@ transition: slide-left
 # DevEx disasters...
 
 <!--
-We've all had that experience using a tool or service that was a disaster. It could be the worst deployment process you've ever seen, or the most painful codebase you've ever had to work with, or documentation that's so confusing it makes your head spin. Or maybe a combination of them…. Who here knows what I’m talking about? 
+We've all had that experience using a tool or service that was a disaster. It could be the worst deployment process you've ever seen, or the most painful codebase you've ever had to work with, or documentation that's so confusing it makes your head spin. Or maybe a combination of them…. Who here knows what I’m talking about?
 
-We’ve all seen examples of epicly bad websites, right? 
+We’ve all seen examples of epicly bad websites, right?
 -->
 
 ---
@@ -172,7 +171,7 @@ layout: default
 ![alt text](/images/slides/ramiro-tweet.png)
 
 <!--
-And then there’s Ramiro’s story on a DevEx disaster - 
+And then there’s Ramiro’s story on a DevEx disaster -
 
 Long time ago, in a galaxy far away, I worked at a team were our CI environment was so different from local or production, that the only realistic option way to validate a change was in prod. So we would commit the change, rerun CI jobs until they were green, deploy to prod, and then monitor the logs for about 1 hour. If no major errors were logged after that you were good to go
 
@@ -277,7 +276,7 @@ So all of this interest in DevEx isn't a new concept - but is largely driven by 
 ---
 
 # A working definition of DevEx
-  
+
 >_"...the **journey** of developers and practitioners as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder them from achieving success in their endeavors."_
 
 -**Jessica West**, _Co-Founder, DevEx Institute_
