@@ -314,6 +314,31 @@ title: "About Me"
 -->
 
 ---
+layout: image-left
+image:
+backgroundSize:
+class: my-cool-content-on-the-right
+---
+
+## Turning DevEx disasters into delights
+
+- The Developer Experience journey
+- Why DevEx matters
+- DevEx fits all sizes
+- Implementing DevEx in your org
+
+---
+layout: image
+image: /images/slides/devex-journey.jpg
+backgroundSize: contain
+---
+
+<!--
+In this section, we'll explore what the Developer Experience journey looks like. We'll define what DX truly is, examine its profound impact, and then what DevEx isn't.
+
+-->
+
+---
 
 ## A working definition of DevEx
 
@@ -340,11 +365,26 @@ I think it's important to clarify that "DevEx" by default focuses on the "develo
 
 ---
 layout: image
-image: /images/slides/good-and-bad-devex.jpeg
+image: /images/slides/dev-lifecycle.jpg
+backgroundSize: contain
 ---
 
 <!--
-DevEx is an integral part of the entire development lifecycle, as a direct result of the choice of development tools, technologies, and platforms. That means that the ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
+Developer Experience encompasses everything a developer interacts with, from the tools they use, to the processes they follow, and even the culture they're immersed in. It's about making their entire work lifecycle smooth, efficient, and enjoyable.
+
+That means that the ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
+-->
+
+---
+layout: image
+image: /images/slides/devex-making-an-impact.jpg
+backgroundSize: contain
+---
+
+<span style="position: absolute; top: 5%; right: 5px; color: yellow; font-style: italic;">Source: <a href="https://github.blog/news-insights/research/good-devex-increases-productivity/">GitHub</a></span>
+
+<!--
+Having a strong DevEx does help boost productivity. When developers have the right tools and a streamlined workflow, they can focus on what matters most: building great software. This translates to faster development cycles and quicker time to market.
 
 It’s also not the same as Developer Productivity……
 -->
@@ -354,9 +394,7 @@ It’s also not the same as Developer Productivity……
 ## Developer Experience != Developer Productivity
 
 <!--
-Think about this… Developer Productivity comes down to the bottom line of what is going to make the company more money. That doesn’t always mean that the experience you have as a developer or practitioner is going to be a good one. Which is why we have tools and systems like Sharepoint, Concur, Bitbucket, Visual Studio Team Services (or it’s predecessor Visual SourceSafe). These get touted to organizations as how you save money or be more productive - and yet they’re horrific.
-
-Any others come to mind?
+Think about this… Developer Productivity comes down to the bottom line of what is going to make the company more money. That doesn’t always mean that the experience you have as a developer or practitioner is going to be a good one. Which is why we have tools and systems like Sharepoint, Concur, Bitbucket, Visual Studio Team Foundation Server (or it’s predecessor Visual SourceSafe). These get touted to organizations as how you save money or be more productive - and yet they’re horrific in the DevEx category.
 -->
 
 ---
