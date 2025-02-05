@@ -315,13 +315,14 @@ title: "About Me"
 
 ---
 layout: image-left
-image:
-backgroundSize:
+image: /images/slides/devex-disaster-into-delight.jpg
+backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
 
 ## Turning DevEx disasters into delights
 
+- Overview of DevEx
 - The Developer Experience journey
 - Why DevEx matters
 - DevEx fits all sizes
@@ -335,7 +336,6 @@ backgroundSize: contain
 
 <!--
 In this section, we'll explore what the Developer Experience journey looks like. We'll define what DX truly is, examine its profound impact, and then what DevEx isn't.
-
 -->
 
 ---
@@ -384,113 +384,449 @@ backgroundSize: contain
 <span style="position: absolute; top: 5%; right: 5px; color: yellow; font-style: italic;">Source: <a href="https://github.blog/news-insights/research/good-devex-increases-productivity/">GitHub</a></span>
 
 <!--
-Having a strong DevEx does help boost productivity. When developers have the right tools and a streamlined workflow, they can focus on what matters most: building great software. This translates to faster development cycles and quicker time to market.
+GitHub released a report last year, in collaboration with a company called "DX", that talked about how having a strong DevEx does help boost productivity. When developers have the right tools and a streamlined workflow, they can focus on what matters most: building great software. This translates to faster development cycles and quicker time to market.
 
 It’s also not the same as Developer Productivity……
 -->
 
 ---
+layout: image
+image: /images/slides/acm-devex-study.png
+backgroundSize: contain
+---
 
-## Developer Experience != Developer Productivity
+<span style="position: absolute; top: 5%; right: 5px; color: yellow; font-style: italic;">Source: <a href="https://dl.acm.org/doi/10.1145/3687299">ACM Digital Library</a></span>
+
+<!--
+In October of last year, the Association for Computing Machinery released a review of 218 papers that had been published between 2005-2020 on the topic of DevEx and Dev Productivity, where they found that DevEx has a direct impact on developer productivity, job satisfaction, and retention. When developers have a positive experience, they're more likely to be productive, satisfied with their jobs, and less likely to leave their organizations.
+-->
+
+---
+
+## `Developer Experience` != `Developer Productivity`
 
 <!--
 Think about this… Developer Productivity comes down to the bottom line of what is going to make the company more money. That doesn’t always mean that the experience you have as a developer or practitioner is going to be a good one. Which is why we have tools and systems like Sharepoint, Concur, Bitbucket, Visual Studio Team Foundation Server (or it’s predecessor Visual SourceSafe). These get touted to organizations as how you save money or be more productive - and yet they’re horrific in the DevEx category.
 -->
 
 ---
-layout: default
+layout: two-cols-header
 ---
 
-# Key Aspects of DevEx
+## DevEx factors that impact Dev Productivity
 
-1. Tools & Automation
-- Code editors
-- Version control system
-- Deployment pipelines
+::left::
 
+### Positive influencers
+
+- Availability of **resources and tools**
+- **Relevant expertise** for assigned tasks
+- **Minimized interruptions** to maintain developer flow
+
+::right::
+
+### Negative influencers
+
+- **Code complexity** and **technical debt**
+- **Diverse contexts of tasks**, causing cognitive overload.
+- **Lack of standardization**, leading to inefficiencies.
 
 <!--
-**Tools & Automation**
-Provide developers with the right tools to streamline their workflows and reduce manual tasks.
-Automate repetitive tasks like testing, deployment, and infrastructure provisioning to save time and reduce errors.
+Factors impacting Dev-P positively include: Availability of resources (e.g., development tools, quiet work environments); Relevant expertise for assigned tasks; Minimized interruptions to maintain developer flow.
 
+Factors that negatively impact Dev-P: Code complexity and technical debt; Diverse contexts of tasks, causing cognitive overload; Lack of standardization, leading to inefficiencies.
 -->
 
 ---
 layout: default
 ---
 
-# Key Aspects of DevEx
+## Key Themes of Developer Experience
 
-1. Tools & Automation
-2. Development Environment Setup
-- Streamlined onboarding (i.e. IDPs)
-- Consistent configurations
+1. ***Developer proficiency & growth***
+- Align tasks with expertise and skill level
+- Focus on skill development, mentorship, structured work
+- Provide challenging but meaningful tasks
 
 <!--
-**Develoment Environment Setup:**
-Ensure developers have a consistent and well-configured environment to minimize setup time and prevent compatibility issues.
-Provide clear guidelines and templates for setting up development environments, making onboarding new team members easier.
+Developers are most productive when **tasks align with their expertise and skill level.** Organizations should **focus on skill development, mentorship, and structured work** to reduce cognitive overload. **Providing challenging but meaningful tasks** helps maintain motivation and engagement.
 -->
 
 ---
 layout: default
 ---
 
-# Key Aspects of DevEx
+## Key Themes of Developer Experience
 
-1. Tools & Automation
-2. Development Environment Setup
-3. Documentation, documentation, documentation....
-- Clear, up-to-date documentation
-- Easy access to resources, trainings
-- Regular team audits
+1. Developer proficiency & growth
+2. ***Work environment & productivity flow***
+- Minimize interruptions, unnecessary context-switching, distractions
+- A healthy physical and virtual work environment
+- Give autonomy over work, tools, decision-making
 
 <!--
-**Documentation…..**
-Create comprehensive and up-to-date documentation for code, processes, and tools.
-Foster a culture of knowledge sharing through internal wikis, forums, or pair programming sessions.
+**Minimizing interruptions, unnecessary context switching, and distractions** leads to better productivity. **A healthy work environment (both physical and virtual)** reduces burnout and supports long-term effectiveness. Developers perform best when given **autonomy over their work, tools, and decision-making** processes.
 -->
 
 ---
 layout: default
 ---
 
-# Key Aspects of DevEx
+## Key Themes of Developer Experience
 
-1. Tools & Automation
-2. Development Environment Setup
-3. Documentation, documentation, documentation....
-4. Collaboration & Communication
-- Efficient communication channels
-- Knowledge-sharing platforms
-- Code reviews
+1. Developer proficiency & growth
+2. Work environment & productivity flow
+3. ***Collaboration & communication***
+- Effective team collaboration
+- Provide clear, accessible, relevant information
+- Encourage psychological safety and supportive team culture
 
 <!--
-**Collaboration & Communication**
-Use effective communication tools and channels to facilitate collaboration and information sharing within the team.
-Encourage code reviews, pair programming, and open discussions to improve code quality and knowledge transfer.
+**Effective team collaboration** improves efficiency and problem-solving. **Providing developers with clear, accessible, and relevant information** reduces decision fatigue. **Encouraging psychological safety and supportive team culture** enhances engagement and retention.
 -->
 
 ---
 layout: default
 ---
 
-# Key Aspects of DevEx
+## Key Themes of Developer Experience
 
-1. Tools & Automation
-2. Development Environment Setup
-3. Documentation, documentation, documentation....
-4. Collaboration & Communication
-5. Culture & Feedback
-- Positive work environment
-- People and culture before tools
-- Opportunities for feedback and growth
+1. Developer proficiency & growth
+2. Work environment & productivity flow
+3. Collaboration & communication
+4. ***Code & tooling quality***
+- High-quality, maintainable, well-documented codebases
+- Intuitive, reliable, well-integrated tools and APIs
+- Automation and developer-friendly tooling investment
 
 <!--
-**Culture & Feedback**
-I put the most important one last… If you don’t create a positive and supportive work environment where devs / practitioners feel valued and empowered, or encourage feedback and continuous improvement you won’t have a good developer experience in your organization.
+Developers thrive when working with **high-quality, maintainable, and well-documented codebases**. **Tools and APIs should be intuitive, reliable, and well-integrated** into development workflows. **Investing in automation and developer-friendly tooling** reduces friction and improves efficiency.
 -->
 
+---
+layout: default
+---
+
+## Key Themes of Developer Experience
+
+1. Developer proficiency & growth
+2. Work environment & productivity flow
+3. Collaboration & communication
+4. Code & tooling quality
+5. ***Process & standardization***
+- Balance structured process and developer flexibility
+- Standardization that supports, not hinders, productivity
+- Steadily evolving technical ecosystem with right resources
+
+<!--
+Striking a balance between **structured processes and developer flexibility** prevents bureaucratic slowdowns. **Standardization should support, not hinder, productivity**—use automation to enforce best practices. The **technical ecosystem should evolve steadily**, ensuring developers have the right resources without overwhelming them with constant change.
+-->
+
+---
+layout: section
+---
+
+# Making the Case for Developer Experience
+
+<!--
+Now, let's talk about making the case for DX within your organization. This involves understanding the challenges, clearly communicating the benefits, and building momentum for change.
+-->
+
+---
+layout: center
+---
+
+# Making the case...
+## Responding to the challenges
+
+<v-clicks>
+
+1. Acknowledge the concern
+2. Focus on the positive
+3. Use data and examples
+4. Offer a path forward
+5. Emphasize collaboration
+
+</v-clicks>
+
+<!--
+[click]Acknowledge the concern: Don't dismiss their point of view. Show that you understand where they're coming from.[click]Focus on the positive: Shift the conversation from problems to solutions and benefits.[click]Use data and examples: Back up your claims with concrete evidence whenever possible.[click]Offer a path forward: Suggest concrete steps that can be taken to address the challenge.[click]Emphasize collaboration: Make it clear that you're working with them, not against them.
+-->
+
+---
+layout: two-cols-header
+---
+
+# Making the Case...
+## Challenges you'll likely face
+### Budget constraints
+
+::left::
+
+<v-click>
+
+### Challenge:
+> "We'd love to improve developer experience, but we just don't have the budget for it right now.  These kinds of initiatives are expensive."
+
+</v-click>
+
+::right::
+
+<v-click>
+
+### Response with benefit:
+> "I understand the concern about budget. However, investing in DevEx isn't just an expense; it's an investment in our team's efficiency and ultimately, our bottom line. For example, by streamlining our onboarding process, we could save `X` hours per new developer, which translates to `Y` dollars. Let's explore some low-cost, high-impact options we could pilot."
+
+</v-click>
+
+<!--
+One common challenge is budget. DevEx initiatives can sometimes be seen as an added expense, rather than an investment. So a good response would be around the *return* on that investment. Improved DevEx translates to increased developer efficiency, faster project completion, and ultimately, a better ROI. Quantify these benefits whenever possible.
+-->
+
+---
+layout: two-cols-header
+---
+
+# Making the Case...
+## Challenges you'll likely face
+### Lack of Awareness
+
+::left::
+
+<v-click>
+
+### Challenge:
+> "Developer experience? Isn't that just about giving developers nicer keyboards, beanbag chairs, foosball, and artisan coffee? We have more pressing issues to deal with."
+
+</v-click>
+
+::right::
+
+<v-click>
+
+### Response with benefit:
+> "That's a common misconception - it is much broader than perks. It's about creating an environment where developers can do their best work. Poor DevEx can lead to frustration, slow development cycles, and even developers leaving the company. Let me share some data that shows the link between DevEx and key metrics like productivity and retention."
+
+</v-click>
+
+<!--
+Another challenge is lack of awareness of what DevEx actually is. So highlight the impact on talent acquisition and retention. In today's competitive market, developers choose companies that value their experience. A strong DevEx is a major selling point.
+-->
+
+---
+layout: two-cols-header
+---
+
+# Making the Case...
+## Challenges you'll likely face
+### Resistance to change
+
+::left::
+
+<v-click>
+
+### Challenge:
+> "We've always done things this way. Why change now? New tools and processes just add complexity and slow us down."
+
+</v-click>
+
+::right::
+
+<v-click>
+
+### Response with benefit:
+> "I understand the hesitation - change can be uncomfortable. But the goal here isn't to add complexity; it's to remove it. These improvements are designed to make our work easier and more efficient in the long run. Let's try a small pilot project with a few volunteers and see how it goes. We can gather feedback and adjust as needed."
+
+</v-click>
+
+<!--
+Change can be difficult. Some teams may be resistant to new tools or processes, even if they're meant to help. Emphasize how DevEx improvements can boost team morale, improve collaboration, and reduce developer frustration. Happier developers are more productive and engaged.
+-->
+
+---
+layout: image
+image: /images/slides/devex-for-all-sizes.jpg
+backgroundSize: contain
+---
+
+<!--
+Developer Experience isn't just for big companies with huge budgets. It's relevant for everyone, from small startups to large enterprises. The approach may differ, but the core principles remain the same.
+-->
+
+---
+layout: image-right
+image: /images/slides/small-dev-team.jpg
+class: my-cool-content-on-the-left
+backgroundSize: contain
+---
+
+# DevEx for All
+
+## Small Teams - The Agile Advantage
+
+> Focus on lightweight tools, processes to promote collaboration and knowledge sharing
+
+<v-click>
+
+<div class="grid grid-cols-5" style="padding-top: 2rem; row-gap: 1rem; justify-content: center;">
+  <logos-slack-icon class="text-10" />
+  <logos-discord-icon class="text-10" />
+  <logos-google-drive class="text-10" />
+  <logos-github-actions class="text-10" />
+  <logos-docusaurus class="text-10" />
+</div>
+
+</v-click>
+
+<!--
+Small teams have a natural advantage when it comes to DevEx. They're often more agile and can implement changes quickly. Focus on lightweight tools and processes that promote collaboration and knowledge sharing: [click]shared comms platform for quick questions and updates. Implement a simple CI/CD pipeline to automate testing and deployment. Create clear and concise documentation. These small steps can make a big difference.
+-->
+
+---
+layout: image-left
+image: /images/slides/scaling-dev-teams.jpg
+class: my-cool-content-on-the-right
+backgroundSize: contain
+---
+
+# DevEx for All
+
+## Scaling to Enterprise
+
+> Create a specific DevEx team to drive initiatives, or prioritize internal DevEx community for sharing best practices and collaboration.
+
+> KEY: Internal developer portal for centralized resources and tools.
+
+<!--
+Scaling DevEx initiatives and practices can be more challenging in larger organizations with many different teams, more tools, and more processes to deal with. The key in this will be coordination and communication.
+-->
+
+---
+layout: image-right
+image: /images/slides/common-ground.jpg
+class: my-cool-content-on-the-left
+backgroundSize: contain
+---
+
+# DevEx for All
+
+## Common Ground
+
+<v-clicks>
+
+1. Developer feedback
+2. Continuous improvement
+3. Automation
+
+</v-clicks>
+
+<!--
+Regardless of size, there are core DevEx principles that apply to everyone. [click]Regularly solicit feedback from developers to identify pain points and areas for improvement. Make it easy for them to share their thoughts and suggestions. [click]DevEx is an ongoing journey, not a destination. Embrace a culture of continuous improvement, constantly evaluating your DevEx initiatives and making adjustments as needed. [click]Automate repetitive tasks to free up developers' time and allow them to focus on more creative and challenging work.
+-->
+
+---
+layout: section
+---
+
+# Practical Implementation
+
+## Turning DevEx into Reality
+
+<!--
+In the remaining time we have, let's go over some practical steps you can take within your teams and organizations today.
+-->
+
+---
+layout: image-right
+image: /images/slides/start-small-win-big.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+## Turning DevEx into Reality
+
+1. ***Start Small, Win Big***
+
+- Identify a pain point
+- Define success
+
+<v-click>
+
+<h4 style="padding-top: 2rem;">Example: Streamline onboarding</h4>
+
+</v-click>
+
+<!--
+Don't try to boil the ocean. Begin with a small, well-defined pilot project to demonstrate value quickly and build momentum. Identify a pain point being experienced (internal or external) that impacts productivity and morale. Define success before you start, so you can demonstrate the value of your work. [click]Let's say you choose to streamline the developer onboarding process. You might track metrics like time to first commit or time to productivity.-->
+
+---
+layout: image-right
+image: /images/slides/feedback.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+## Turning DevEx into Reality
+
+1. Start Small, Win Big
+2. ***Focus on feedback***
+
+- Multiple channels
+- Act on the feedback
+
+<!--
+Gathering regular feedback from developers is essential. Be the Voice of the Developer. They are the experts on their own experience, and their input is invaluable for identifying areas for improvement. Capture feedback from a variety of different channels and perspectives. But you also have to act on it. Let them know they are heard and the feedback is being used.
+-->
+
+---
+layout: image-right
+image: /images/slides/metrics.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+## Turning DevEx into Reality
+
+1. Start Small, Win Big
+2. Focus on feedback
+3. ***Metrics that matter***
+
+- Measure the impact
+- Communicate results
+
+<!--
+Measuring the impact of your DevEx initiatives is crucial for demonstrating their value and securing continued support. Focus on metrics that align with business goals, which could be: developer satisfaction scores, time to deploy, number of bugs, and employee turnover. Choose the metrics that are most relevant to your organization and your DevEx initiatives. Don't discount those that impact the bottom line either.
+-->
+
+---
+layout: default
+---
+
+---
+layout: default
+---
+
+---
+layout: default
+---
+
+---
+layout: default
+---
+
+---
+layout: default
+---
+
+---
+layout: default
+---
+
+---
+layout: default
+---
+
+---
+layout: default
 ---
 
