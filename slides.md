@@ -11,7 +11,7 @@ info: |
   Is your team drowning in a sea of bugs, clunky tools, and morale-sapping processes? Are you tired of hearing them utter phrases like "I hate this deployment process" and "This codebase is a crime against humanity"? Well, fret no more! This talk will be your guide to transforming your organization's Developer Experience (DevEx) from a disaster zone to a developer utopia. We'll delve into the what, why, and how of DevEx, exploring practical strategies you can implement to make your developers' lives easier and more productive. We'll cover everything from tooling and automation to fostering a culture of collaboration and feedback.
 
   By the end of this talk, you'll be armed with the knowledge and practical tips to become a DevEx champion in your organization, all while avoiding the wrath of your CTO (hopefully). So buckle up, grab your favorite stress ball (you might need it), and get ready to learn how to turn your developer frowns upside down!
-conference: ""
+conference: "Developer Week 2025"
 socialimg: '../images/bluesky-jerdog-white.png'
 favicon: 'https://raw.githubusercontent.com/jerdog/jmeiss-me-website/main/assets/images/fav.png'
 keywords: devex,developer experience
@@ -797,6 +797,12 @@ class: my-cool-content-on-the-left
 <!--
 Measuring the impact of your DevEx initiatives is crucial for demonstrating their value and securing continued support. Focus on metrics that align with business goals, which could be: developer satisfaction scores, time to deploy, number of bugs, and employee turnover. Choose the metrics that are most relevant to your organization and your DevEx initiatives. Don't discount those that impact the bottom line either. And then communicate them clearly.
 -->
+
+---
+layout: cover
+---
+
+Wrap Up
 
 ---
 layout: statement
