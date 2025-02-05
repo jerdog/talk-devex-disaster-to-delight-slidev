@@ -795,38 +795,52 @@ class: my-cool-content-on-the-left
 - Communicate results
 
 <!--
-Measuring the impact of your DevEx initiatives is crucial for demonstrating their value and securing continued support. Focus on metrics that align with business goals, which could be: developer satisfaction scores, time to deploy, number of bugs, and employee turnover. Choose the metrics that are most relevant to your organization and your DevEx initiatives. Don't discount those that impact the bottom line either.
+Measuring the impact of your DevEx initiatives is crucial for demonstrating their value and securing continued support. Focus on metrics that align with business goals, which could be: developer satisfaction scores, time to deploy, number of bugs, and employee turnover. Choose the metrics that are most relevant to your organization and your DevEx initiatives. Don't discount those that impact the bottom line either. And then communicate them clearly.
 -->
 
 ---
-layout: default
+layout: statement
 ---
 
----
-layout: default
----
+# DevEx is...
+
+>### "ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful"
+
+
+<!--
+I'll leave you with this, that DevEx is ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful.
+-->
 
 ---
-layout: default
+layout: two-cols
 ---
 
----
-layout: default
----
+
+<div class="items-center" style="padding-top:200px;">
+
+## Thank you!
+
+</div>
+
+::right::
+
+<p><img src="/images/bluesky-logo.svg" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@jerdog.dev</p>
+<p><img src="/images/linkedin.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">/in/jeremymeiss</p>
+<p><img src="/images/devto.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@jerdog</p>
+<p><img src="/images/mastodon.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@jerdog@hachyderm.io</p>
+<p><img src="/images/twitter.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@IAmJerdog</p>
+<p><img src="/images/www.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">jmeiss.me</p>
+
+
+<!--
+
+-->
 
 ---
-layout: default
+layout: end
 ---
 
----
-layout: default
----
 
----
-layout: default
----
+<!--
 
----
-layout: default
----
-
+-->
