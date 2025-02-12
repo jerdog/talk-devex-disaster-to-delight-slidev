@@ -64,7 +64,110 @@ transition: slide-left
 <!--
 We've all had that experience using a tool or service that was a disaster. It could be the worst deployment process you've ever seen, or the most painful codebase you've ever had to work with, or documentation that's so confusing it makes your head spin. Or maybe a combination of them… Who here knows what I’m talking about?
 
-What about epicly bad websites that would put ebaumsworld to shame?
+Back in 2023, NordicAPIs put together a list of top DevEx fails companies make.
+-->
+
+---
+layout: image-right
+image: /images/slides/new-feature-fail.gif
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+# Bad DevEx
+## Common examples
+
+- Poorly documented features (or bugs){style="font-size: 1.2em;"}
+
+<!--
+- Poorly documented features (or bugs)
+
+We’ve all had those moments where we encounter changes to an application that either introduce new features, or in some cases, new bugs, that aren’t adequately documented or even mentioned as existing - even if the bug won’t be fixed for awhile and there are workarounds.
+
+-->
+
+---
+layout: image-right
+image: /images/slides/api-fail.png
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+# Bad DevEx
+## Common examples
+
+- Poorly documented features (or bugs){style="font-size: 1.2em;"}
+- Missing OpenAPI spec (or even APIs)]{style="font-size: 1.2em;"}
+
+<!--
+- Missing OpenAPI spec (or even APIs)
+
+We’ve all worked with those companies that say they have a developer platform, but are missing documentation for their APIs, or even worse, no APIs at all.
+-->
+
+---
+layout: image-right
+image: /images/slides/missing-docs-fail.png
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+# Bad DevEx
+## Common examples
+
+- Poorly documented features (or bugs){style="font-size: 1.2em;"}
+- Missing OpenAPI spec (or even APIs){style="font-size: 1.2em;"}
+- PDF documentation... or access-gated{style="font-size: 1.2em;"}
+
+<!--
+- Downloading documentation… as a PDF, or access-gated
+
+Having to hunt all over for documentation, and it’s not been written, OR, to find it, and realize you have to download it as a PDF, or that it’s gated by a password. For a public tool.
+-->
+
+---
+layout: image-right
+image: /images/slides/missing-examples-fail.png
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+# Bad DevEx
+## Common examples
+
+- Poorly documented features (or bugs){style="font-size: 1.2em;"}
+- Missing OpenAPI spec (or even APIs){style="font-size: 1.2em;"}
+- PDF documentation... or access-gated{style="font-size: 1.2em;"}
+- Missing examples… of _anything_{style="font-size: 1.2em;"}
+
+<!--
+- Missing examples… of _anything_
+
+There’s the examples of different departments having different ideas of what has been built, without any examples of how to actually use it or put it together. Accessing a development tool shouldn’t be like putting together an IKEA piece of furniture.
+-->
+
+---
+layout: image-right
+image: /images/slides/ramiro-tweet.png
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+# Bad DevEx
+## Common examples
+
+- Poorly documented features (or bugs){style="font-size: 1.2em;"}
+- Missing OpenAPI spec (or even APIs){style="font-size: 1.2em;"}
+- PDF documentation... or access-gated{style="font-size: 1.2em;"}
+- Missing examples… of _anything_{style="font-size: 1.2em;"}
+- “CI as Magic 8-Ball”{style="font-size: 1.2em;"}
+
+<!--
+- “CI as Magic 8-Ball”
+
+And then there is Ramiro's story that I call "CI as Magic 8-Ball" where you're really just throwing code against the wall like pasta to see if it's done or not.
+
+***Since I'm on the Frontend Stage, what about epicly bad websites that would put ebaumsworld to shame?***
 -->
 
 ---
@@ -75,151 +178,19 @@ title: '--Yale bad website'
 ---
 
 <!--
-Here’s an epicly bad website (as of 10-Sep-2024) from none other than the Yale School of Art. So much wrong on one page.
 
-NordicAPIs gathered some examples a few years ago…
+what about epicly bad websites that would put ebaumsworld to shame?
+Here’s an epicly bad website (as of Oct-2024) from none other than the Yale School of Art. So much wrong on one page.
+
 -->
 
 ---
-layout: image-right
-image: /images/slides/new-features.gif
+layout: image
+image: /images/slides/yale-art-school-spring2025.jpg
 backgroundSize: contain
-class: my-cool-content-on-the-left
-title: '--Common Examples'
 ---
-
-# DevEx as Disaster
-## Common examples
-
-<v-click>
-
-- Poorly documented features (or bugs)
-
-</v-click>
 
 <!--
-We’ve all had those moments where we encounter changes to an application that either introduce new features, or in some cases, new bugs, that aren’t adequately documented or even mentioned as existing - even if the bug won’t be fixed for awhile and there are workarounds.
-
-[click]- Poorly documented features (or bugs)
--->
-
----
-layout: image-right
-image: /images/slides/api-fail.png
-backgroundSize: contain
-class: my-cool-content-on-the-left
-title: '--Common Examples'
----
-
-# DevEx as Disaster
-## Common examples
-
-- Poorly documented features (or bugs)
-
-<v-click>
-
-- Missing OpenAPI spec (or even APIs)
-
-
-</v-click>
-
-<!--
-We’ve all worked with those companies that say they have a developer platform, but are missing documentation for their APIs, or even worse, no APIs at all.
-
-[click]- Missing OpenAPI spec (or even APIs)
--->
-
----
-layout: image-right
-image: /images/slides/missing-docs-fail.png
-backgroundSize: contain
-class: my-cool-content-on-the-left
-title: '--Common Examples'
----
-
-# DevEx as Disaster
-## Common examples
-
-- Poorly documented features (or bugs)
-
-- Missing OpenAPI spec (or even APIs)
-
-<v-click>
-
-- Downloading documentation… as a PDF, or access-gated
-
-</v-click>
-
-<!--
-Having to hunt all over for documentation, and it’s not been written, OR, to find it, and realize you have to download it as a PDF, or that it’s gated by a password. For a public tool.
-
-[click]- Downloading documentation… as a PDF, or access-gated
--->
-
----
-layout: image-right
-image: /images/slides/missing-examples-fail.png
-backgroundSize: contain
-class: my-cool-content-on-the-left
-title: '--Common Examples'
----
-
-# DevEx as Disaster
-## Common examples
-
-- Poorly documented features (or bugs)
-
-- Missing OpenAPI spec (or even APIs)
-
-- Downloading documentation… as a PDF, or access-gated
-
-<v-click>
-
-- Missing examples… of _anything_
-
-</v-click>
-
-<!--
-There’s the examples of different departments having different ideas of what has been built, without any examples of how to actually use it or put it together. Accessing a development tool shouldn’t be like putting together an IKEA piece of furniture.
-
-[click]- Missing examples… of _anything_
--->
-
----
-layout: image-right
-image: /images/slides/ramiro-tweet.png
-backgroundSize: contain
-class: my-cool-content-on-the-left
-title: '--Common Examples'
----
-
-# DevEx as Disaster
-## Common examples
-
-- Poorly documented features (or bugs)
-
-- Missing OpenAPI spec (or even APIs)
-
-- Downloading documentation… as a PDF, or access-gated
-
-- Missing examples… of _anything_
-
-<v-click>
-
-- “CI as Magic 8-Ball”
-
-</v-click>
-
-<!--
-And then there’s Ramiro’s story on a DevEx disaster -
-
-Long time ago, in a galaxy far away, I worked at a team were our CI environment was so different from local or production, that the only realistic option way to validate a change was in prod. So we would commit the change, rerun CI jobs until they were green, deploy to prod, and then monitor the logs for about 1 hour. If no major errors were logged after that you were good to go
-
-I call this one:
-
-[click]- “CI as Magic 8-Ball”
-
-Any other quick examples not covered? What about an example of a DevEx delight?
 -->
 
 ---
@@ -249,7 +220,7 @@ title: "DevEx isn't new"
 _REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984)," 2012 International Conference on Software and System Process (ICSSP), Zurich, Switzerland, 2012._
 
 <!--
-But DevEx isn't a new thing. The first mention of "developer experience" as a concept was in a paper was presented at the June IEEE 2012 International Conference on Software and System Process in Zurich. There are references in the paper going back to 1985 that deal with "programmer performance and the effects of the workplace." A few things stand out in this paper, which is a really great read.
+But DevEx isn't a new thing. The first mention of "developer experience" as a concept was in a paper presented at the June 2012 IEEE International Conference on Software and System Process in Zurich. There are references in the paper going back to 1985 that deal with "programmer performance and the effects of the workplace." A few things stand out in this paper, which is a really great read.
 -->
 
 ---
@@ -269,6 +240,7 @@ _REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition
 <!--
 The first is where it talked about these New ways of working where development was globally distributed and integrating self-motivated external developers into software ecosystems and would require a better and more comprehensive understanding of developers' feelings, perceptions, motivations and identification with their tasks in their respective project environments.
 -->
+
 ---
 layout: image-left
 image: /images/slides/cornell-devex.jpg
@@ -287,7 +259,7 @@ _REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition
 <!--
 The second was this line, that DevEx could be a means for capturing how devs think and feel about their activities at work, and that improving their experience impacts things like sustained team and project performance.
 
-So all of this interest in DevEx isn't a new concept - but is largely driven by companies trying to sell you something, from the top down, with very little (if any) focus on developers themselves. We've all been there - we've been told we need to adopt a new way of working, and then had some new tool from some friend on the C-Suite who says that by simply using it, we'll be happier, more productive, and instantly a 10x engineer. Meanwhile, you've used it before and it's shit.
+So all of this interest in DevEx isn't a new concept - but is largely driven by companies trying to sell you something, from the top down, with very little (if any) focus on developers themselves.
 -->
 
 ---
@@ -329,16 +301,6 @@ class: my-cool-content-on-the-right
 - Implementing DevEx in your org
 
 ---
-layout: image
-image: /images/slides/devex-journey.jpg
-backgroundSize: contain
----
-
-<!--
-In this section, we'll explore what the Developer Experience journey looks like. We'll define what DX truly is, examine its profound impact, and then what DevEx isn't.
--->
-
----
 
 ## A working definition of DevEx
 
@@ -371,8 +333,16 @@ backgroundSize: contain
 
 <!--
 Developer Experience encompasses everything a developer interacts with, from the tools they use, to the processes they follow, and even the culture they're immersed in. It's about making their entire work lifecycle smooth, efficient, and enjoyable.
+-->
 
-That means that the ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
+---
+layout: image
+image: /images/slides/devex-journey.jpg
+backgroundSize: contain
+---
+
+<!--
+That means that the ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience - their journey in using a product or service.
 -->
 
 ---
@@ -550,7 +520,7 @@ layout: center
 </v-clicks>
 
 <!--
-[click]Acknowledge the concern: Don't dismiss their point of view. Show that you understand where they're coming from.[click]Focus on the positive: Shift the conversation from problems to solutions and benefits.[click]Use data and examples: Back up your claims with concrete evidence whenever possible.[click]Offer a path forward: Suggest concrete steps that can be taken to address the challenge.[click]Emphasize collaboration: Make it clear that you're working with them, not against them.
+[click]**Acknowledge the concern:** Don't dismiss their point of view. Show that you understand where they're coming from. [click]**Focus on the positive:** Shift the conversation from problems to solutions and benefits. [click]**Use data and examples:** Back up your claims with concrete evidence whenever possible. [click]**Offer a path forward:** Suggest concrete steps that can be taken to address the challenge. [click]**Emphasize collaboration:** Make it clear that you're working with them, not against them.
 -->
 
 ---
@@ -563,12 +533,8 @@ layout: two-cols-header
 
 ::left::
 
-<v-click>
-
 ### Challenge:
 > "We'd love to improve developer experience, but we just don't have the budget for it right now.  These kinds of initiatives are expensive."
-
-</v-click>
 
 ::right::
 
@@ -580,7 +546,7 @@ layout: two-cols-header
 </v-click>
 
 <!--
-One common challenge is budget. DevEx initiatives can sometimes be seen as an added expense, rather than an investment. So a good response would be around the *return* on that investment. Improved DevEx translates to increased developer efficiency, faster project completion, and ultimately, a better ROI. Quantify these benefits whenever possible.
+One common challenge is budget. DevEx initiatives can sometimes be seen as an added expense, rather than an investment. [click]So a good response would be around the *return* on that investment. Improved DevEx translates to increased developer efficiency, faster project completion, and ultimately, a better ROI. Quantify these benefits whenever possible.
 -->
 
 ---
@@ -593,12 +559,8 @@ layout: two-cols-header
 
 ::left::
 
-<v-click>
-
 ### Challenge:
 > "Developer experience? Isn't that just about giving developers nicer keyboards, beanbag chairs, foosball, and artisan coffee? We have more pressing issues to deal with."
-
-</v-click>
 
 ::right::
 
@@ -610,7 +572,7 @@ layout: two-cols-header
 </v-click>
 
 <!--
-Another challenge is lack of awareness of what DevEx actually is. So highlight the impact on talent acquisition and retention. In today's competitive market, developers choose companies that value their experience. A strong DevEx is a major selling point.
+Another challenge is lack of awareness of what DevEx actually is. [click]So highlight the impact on talent acquisition and retention. In today's competitive market, developers choose companies that value their experience. A strong DevEx is a major selling point.
 -->
 
 ---
@@ -623,12 +585,8 @@ layout: two-cols-header
 
 ::left::
 
-<v-click>
-
 ### Challenge:
 > "We've always done things this way. Why change now? New tools and processes just add complexity and slow us down."
-
-</v-click>
 
 ::right::
 
@@ -640,7 +598,7 @@ layout: two-cols-header
 </v-click>
 
 <!--
-Change can be difficult. Some teams may be resistant to new tools or processes, even if they're meant to help. Emphasize how DevEx improvements can boost team morale, improve collaboration, and reduce developer frustration. Happier developers are more productive and engaged.
+Change can be difficult. Some teams may be resistant to new tools or processes, even if they're meant to help. [click]Emphasize how DevEx improvements can boost team morale, improve collaboration, and reduce developer frustration. Happier developers are more productive and engaged.
 -->
 
 ---
@@ -679,7 +637,10 @@ backgroundSize: contain
 </v-click>
 
 <!--
-Small teams have a natural advantage when it comes to DevEx. They're often more agile and can implement changes quickly. Focus on lightweight tools and processes that promote collaboration and knowledge sharing: [click]shared comms platform for quick questions and updates. Implement a simple CI/CD pipeline to automate testing and deployment. Create clear and concise documentation. These small steps can make a big difference.
+Small teams have a natural advantage when it comes to DevEx. They're often more agile and can implement changes quickly. Focus on lightweight tools and processes that promote collaboration and knowledge sharing: [click]So focus on:
+- shared comms platform for quick questions and updates.
+- Implement a simple CI/CD pipeline to automate testing and deployment.
+- Create clear and concise documentation. These small steps can make a big difference.
 -->
 
 ---
@@ -799,12 +760,6 @@ Measuring the impact of your DevEx initiatives is crucial for demonstrating thei
 -->
 
 ---
-layout: cover
----
-
-Wrap Up
-
----
 layout: statement
 ---
 
@@ -834,9 +789,8 @@ layout: two-cols
 <p><img src="/images/linkedin.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">/in/jeremymeiss</p>
 <p><img src="/images/devto.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@jerdog</p>
 <p><img src="/images/mastodon.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@jerdog@hachyderm.io</p>
-<p><img src="/images/twitter.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@IAmJerdog</p>
 <p><img src="/images/www.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">jmeiss.me</p>
-
+<p style="text-decoration: line-through;"><img src="/images/twitter.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px;">@IAmJerdog</p>
 
 <!--
 

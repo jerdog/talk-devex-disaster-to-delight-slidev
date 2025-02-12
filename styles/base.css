@@ -89,3 +89,7 @@ h2 {
 div.twitter-tweet-rendered {
     min-width: 500px;
 }
+
+.slidev-layout li {
+    font-size: 1.25em;
+}
